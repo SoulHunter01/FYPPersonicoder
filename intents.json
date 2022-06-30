@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Hello there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "Hey there"],
+         "responses": ["Hello!", "Good to see you again", "Hi there, how can I help?", "Welcome to the chatbot"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Take care!", "Have fun!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Great!"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No need"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, I can't understand you", "Please give me more info", "Not sure I understand", "Please calrify what you want me to do"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What's your purpose"],
+         "responses": ["I can guide you through various personality tests like: Enneagram test, 16-personalities test and Big 5 test.", "Do you want to take any personality test from the following choices: Enneagram test, 16-personalities test and Big 5 test?"],
+         "context": [""]
+        },
+        {"tag": "16_personalities",
+         "patterns": ["How to take the 16-personalities test?", "Take me to 16-personalities test", "I want to take 16-personalities test!", "How good is 16-personalities test?" ],
+         "responses": ["Preparing 16-personalities test", "Taking you to 16-personalities test"],
+         "context": [""]
+        },
+        {"tag": "Enneagram",
+         "patterns": ["Take me to Enneagram test", "Bring on Enneagram test!", "I want to take Enneagram test", "How to take Enneagram test?" ],
+         "responses": ["Preparing Enneagram test", "Taking you to Enneagram test"],
+         "context": [""]
+        },
+        {"tag": "big5",
+         "patterns": ["Take me to Big5 test", "Bring on Big5 test!", "I want to take Big5 test", "How to take Big5 test?" ],
+         "responses": ["Preparing Big5 test", "Taking you to Big5 test"],
+         "context": [""]
+        },
+        {"tag": "16personality_result",
+         "patterns": ["I want to see my 16-personalities result", "What's my 16-personalities type?", "Show me my 16-personalities results", "Bring me the report of my 16-personalities test"],
+         "responses": ["Your personality report is being gathered...", "Please give me a moment...", "Bringing you your results."],
+         "context": ["see_16_personality_type"]
+        },
+        {"tag": "enneagram_result",
+         "patterns": ["I want to see my Enneagram result", "What's my Enneagram type?", "Show me my Enneagram results", "Bring me the report of my Enneagram test"],
+         "responses": ["Your personality report is being gathered...", "Please give me a moment...", "Bringing you your results."],
+         "context": ["see_ennegram_type"]
+        },
+        {"tag": "big5_result",
+         "patterns": ["I want to see my Big5 result", "What's my Big5 type?", "Show me my Big5 results", "Bring me the report of my Big5 test"],
+         "responses": ["Your personality report is being gathered...", "Please give me a moment...", "Bringing you your results."],
+         "context": ["see_big5_type"]
+        }
+   ]
+}
